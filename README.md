@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-74%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-28%20passed-brightgreen.svg)]()
 [![CI](https://github.com/mehmetd7mir/UAVImageRestoration/actions/workflows/ci.yml/badge.svg)](https://github.com/mehmetd7mir/UAVImageRestoration/actions)
 
 > Complete image processing pipeline for restoring degraded UAV camera imagery and enhancing targets. Covers noise removal, blur correction, contrast enhancement, and edge detection.
