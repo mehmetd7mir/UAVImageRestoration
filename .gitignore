@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.venv/
+venv/
+results/*.png
+results/*.jpg
+!results/.gitkeep
+data/sample/*.png
+data/sample/*.jpg
+!data/sample/.gitkeep
+.DS_Store
