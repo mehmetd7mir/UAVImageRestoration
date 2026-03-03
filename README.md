@@ -1,5 +1,27 @@
 # UAV Image Restoration Pipeline
 
+## Course Context
+
+This project was developed as part of my **Digital Image Processing** coursework. Each module directly applies concepts from the textbook:
+
+| Module | Textbook Chapters | What I Learned |
+|--------|-------------------|----------------|
+| Noise Modeling | Ch. 8 — Noise Models | How different noise types affect images and how to model them mathematically |
+| Spatial Filters | Ch. 4, 8 — Spatial Filtering | Why median filter beats mean filter for impulse noise, and how alpha-trimmed handles mixed noise |
+| Frequency Filters | Ch. 6, 7, 9 — Frequency Domain | DFT-based image processing, why inverse filtering amplifies noise and Wiener filtering solves this |
+| Contrast Enhancement | Ch. 3 — Intensity Transforms | Histogram equalization theory, how homomorphic filtering separates illumination from reflectance |
+| Edge Detection | Ch. 4, 7 — Edge Detection | First vs second derivatives for edge detection, unsharp masking as a sharpening technique |
+| Benchmark | Ch. 8 — Image Quality | PSNR and SSIM as standard quality metrics, how to objectively compare restoration methods |
+
+> The UAV imagery context connects this coursework to real-world defense applications where degraded sensor data must be restored for target identification.
+
+## References
+
+- Gonzalez & Woods, *Digital Image Processing* (4th Edition)
+- [DOTA Dataset](https://captain-whu.github.io/DOTA/) — Large-scale aerial image dataset
+- [VEDAI Dataset](https://downloads.greyc.fr/vedai/) — Vehicle detection in aerial imagery
+
+
 **Degraded UAV Imagery Restoration and Target Enhancement**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
@@ -134,27 +156,6 @@ pytest tests/ -v
 | **Metrics** | PSNR, SSIM (scikit-image) |
 | **Data** | Pandas |
 | **Testing** | pytest |
-
-## Course Context
-
-This project was developed as part of my **Digital Image Processing** coursework. Each module directly applies concepts from the textbook:
-
-| Module | Textbook Chapters | What I Learned |
-|--------|-------------------|----------------|
-| Noise Modeling | Ch. 8 — Noise Models | How different noise types affect images and how to model them mathematically |
-| Spatial Filters | Ch. 4, 8 — Spatial Filtering | Why median filter beats mean filter for impulse noise, and how alpha-trimmed handles mixed noise |
-| Frequency Filters | Ch. 6, 7, 9 — Frequency Domain | DFT-based image processing, why inverse filtering amplifies noise and Wiener filtering solves this |
-| Contrast Enhancement | Ch. 3 — Intensity Transforms | Histogram equalization theory, how homomorphic filtering separates illumination from reflectance |
-| Edge Detection | Ch. 4, 7 — Edge Detection | First vs second derivatives for edge detection, unsharp masking as a sharpening technique |
-| Benchmark | Ch. 8 — Image Quality | PSNR and SSIM as standard quality metrics, how to objectively compare restoration methods |
-
-> The UAV imagery context connects this coursework to real-world defense applications where degraded sensor data must be restored for target identification.
-
-## References
-
-- Gonzalez & Woods, *Digital Image Processing* (4th Edition)
-- [DOTA Dataset](https://captain-whu.github.io/DOTA/) — Large-scale aerial image dataset
-- [VEDAI Dataset](https://downloads.greyc.fr/vedai/) — Vehicle detection in aerial imagery
 
 ## Author
 
